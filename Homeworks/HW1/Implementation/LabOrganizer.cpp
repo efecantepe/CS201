@@ -4,11 +4,24 @@
 class LabOrganizer{
 
 public:
-    const int MAX_ROW = 9; // Defining the maximum row
-    const int MAX_COLUMN = 9; // Defining the 
+
+    const int START_OF_BIG_LETTER_ASCII = 41; // For the start of the Big letters in ASCII. 
+    const int MAX_ROW = 9; // Defining the maximum row.
+    const int MAX_COLUMN = 9; // Defining the .
 
     int row;
     int column;
+
+    /*
+        Lab Organizer Constructor
+    */
+    LabOrganizer(){
+
+    }
+
+    ~LabOrganizer(){
+
+    }
 
     void addCabinet(int id, int rows, int columns){
 
