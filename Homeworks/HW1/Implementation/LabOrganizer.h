@@ -11,7 +11,7 @@ public:
     void removeCabinet(int id);
     void listCabinets();
     void cabinetContents(int id);
-    void placeChemical(int cabinetId, string location, string chemType, int chemId);
+    void placeChemical(int cabinetId, char const* location, char const* chemType, int chemId);
     void findChemical(int id);
     void removeChemical(int id);
 };
