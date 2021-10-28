@@ -1,3 +1,5 @@
+/*
+
 #include <iostream>
 using namespace std;
 
@@ -16,3 +18,5 @@ int main(){
     cout << "The size of char " << sizeof(char) << endl;
      cout << "The size of bool " << sizeof(bool) << endl;
 }
+
+*/
